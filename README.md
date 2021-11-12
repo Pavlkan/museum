@@ -1,1 +1,1 @@
-https://Pavlkan.github.io/museum/museum_page
+https://Pavlkan.github.io/museum/index.html
