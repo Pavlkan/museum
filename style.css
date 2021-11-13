@@ -273,3 +273,48 @@ body {
     margin-top: 90px;
     margin-bottom: 75px;
 }
+
+.video_journey {
+    padding-left: 240px;
+    padding-right: 240px;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+.vidjor_frame {
+    max-width: 1440px;
+    height: 714px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+
+.vidjor_text_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vidjor_title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #9D8665;
+    max-width: 605px;
+    margin: 0;
+}
+
+.vidjor_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    max-width: 720px;
+    margin: 0;
+}
