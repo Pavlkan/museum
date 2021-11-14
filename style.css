@@ -361,6 +361,7 @@ body {
 }
 
 .buytic_picture {
+    height: 550px;
     margin: 0;
     margin-right: 60px;
 }
@@ -378,7 +379,43 @@ body {
     font-size: 28px;
     line-height: 33px;
     color: #FFFFFF;
+    margin-right: 215px;
 }
+
+.radio_button_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+}
+
+.ticket_type_title {
+    margin-bottom: 50px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+  
+    border: 2px solid #FFFFFF;
+    transition: 0.1s all linear;
+    outline: none;
+    margin-right: 23px;
+}
+
+input:checked {
+    padding: 3px;
+    background-color: #FFFFFF;
+    background-clip: content-box;
+  }
 
 .amount_container {
     max-width: 175px;
@@ -484,9 +521,8 @@ body {
     line-height: 26px;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     letter-spacing: 2px;
     color: #000000;
-    justify-content: center;
     margin: 0;
 }
