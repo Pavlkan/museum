@@ -526,3 +526,76 @@ input:checked {
     color: #000000;
     margin: 0;
 }
+
+.contacts {
+    padding-right: 240px;
+    padding-left: 240px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+.contacts_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_text {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.contacts_rectangle {
+    max-width: 1440px;
+    border-bottom: 3px solid #710707;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+.contacts_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+}
+
+.contacts_content {
+    margin: 0;
+}
+
+.contacts_content_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.contacts_content_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.map {
+    width: 960px;
+    height: 620px;
+    background-color: aquamarine;
+    margin: 0;
+}
