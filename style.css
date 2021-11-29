@@ -273,3 +273,329 @@ body {
     margin-top: 90px;
     margin-bottom: 75px;
 }
+
+.video_journey {
+    padding-left: 240px;
+    padding-right: 240px;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+.vidjor_frame {
+    max-width: 1440px;
+    height: 714px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+
+.vidjor_text_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vidjor_title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #9D8665;
+    max-width: 605px;
+    margin: 0;
+}
+
+.vidjor_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    max-width: 720px;
+    margin: 0;
+}
+
+.buy_tickets {
+    background-color: #030303;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 75px;
+}
+
+.buytic_title {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.buytic_text {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.buytic_rectangle {
+    max-width: 1440px;
+    border-bottom: 3px solid #710707;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+.buytic_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.buytic_picture {
+    height: 550px;
+    margin: 0;
+    margin-right: 60px;
+}
+
+.buytic_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.ticket_type {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-right: 215px;
+}
+
+.radio_button_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+}
+
+.ticket_type_title {
+    margin-bottom: 50px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+  
+    border: 2px solid #FFFFFF;
+    transition: 0.1s all linear;
+    outline: none;
+    margin-right: 23px;
+}
+
+input:checked {
+    padding: 3px;
+    background-color: #FFFFFF;
+    background-clip: content-box;
+  }
+
+.amount_container {
+    max-width: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.frame_basic {
+    margin: 0;
+}
+
+.frame_senior {
+    margin: 0;
+}
+
+.amount_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+.frame_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.frame_input {
+    max-width: 150px;
+    height: 50px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.input_minus {
+    margin: 0;
+}
+
+.input_number {
+    margin: 0;
+}
+
+.input_plus {
+    margin: 0;
+}
+
+.amount_total {
+    display: flex;
+    justify-content:flex-start;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.buy_button {
+    width: 175px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: #000000;
+    margin: 0;
+}
+
+.contacts {
+    padding-right: 240px;
+    padding-left: 240px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0;
+}
+
+.contacts_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_text {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.contacts_rectangle {
+    max-width: 1440px;
+    border-bottom: 3px solid #710707;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+.contacts_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+}
+
+.contacts_content {
+    margin: 0;
+}
+
+.contacts_content_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    padding-top: 10px;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.contacts_content_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+.map {
+    width: 960px;
+    height: 620px;
+    background-color: aquamarine;
+    margin: 0;
+}
