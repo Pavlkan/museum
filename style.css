@@ -2,6 +2,13 @@
 margin: 0;
 }
 
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: Roboto;
     font-style: normal;
@@ -10,11 +17,14 @@ body {
     line-height: 50px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header {    
     background: black;  
-    
+    width: 100%;
 }
 
 .header_container {
@@ -45,7 +55,14 @@ body {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-decoration: none;
     margin-left: 21px;
+    transition: all 0.5s ease;
+}
+
+.head_logo_text:hover {
+    letter-spacing: 7px;
+    color: rgb(243, 205, 183);
 }
 
 .head_navigation {
@@ -62,6 +79,27 @@ body {
     color: #FFFFFF;
     margin-left: 76px;
     text-decoration: none;
+    position: relative;
+}
+
+.header_link:hover {
+    color:rgb(243, 205, 183);
+}
+
+.header_link::before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: darkred;
+    transition: 0.6s;
+    transform: scaleX(0);
+}
+
+.header_link:hover:before {
+    transform: scaleX(1);
 }
 
 .welcome {
@@ -131,9 +169,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.welcome_button_text {
     font-family: Roboto;
     font-style: normal;
     font-weight: 200;
@@ -141,6 +176,22 @@ body {
     line-height: 26px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.welcome_button:hover {
+    background: #921818;
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075) inset, 0 0 3px rgba(255, 196, 0, 0.6);
+    /* color: #000000; */
+    letter-spacing: 4px;
+    /* -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); */
+    
 }
 
 .virtual_tour {
@@ -191,6 +242,10 @@ body {
 
 }
 
+.virtual_tour_pic:hover {
+    opacity: 0.7;
+}
+
 .virtual_tour_text_upper {
     font-family: Forum;
     font-style: normal;
@@ -202,14 +257,28 @@ body {
     color: #000000;
     text-align: left;
     margin: 0;
+    transition: all 0.5s ease;
+}
+
+.virtual_place:hover .virtual_tour_text_upper {
+    color: #710707;
+    cursor: pointer;
+    letter-spacing: 7px;
+    /* -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); */
+}
+
+.virtual_place:hover .content_rectangle {
+    width: 440px;
+    transition: 1.5s;
 }
 
 .content_rectangle {
-    max-width: 300px;
+    width: 300px;
     padding-top: 9px;
     margin: 0;
     margin-bottom: 10px;
     border-bottom: 2px solid #710707;
+    transition: all 0.5s ease;
 }
 
 .virtual_tour_text_lower {
@@ -495,14 +564,17 @@ input:checked {
 
 .input_minus {
     margin: 0;
+    cursor: pointer;
 }
 
 .input_number {
     margin: 0;
+    cursor: pointer;
 }
 
 .input_plus {
     margin: 0;
+    cursor: pointer;
 }
 
 .amount_total {
@@ -536,6 +608,22 @@ input:checked {
     letter-spacing: 2px;
     color: #000000;
     margin: 0;
+
+    position: relative;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.buy_button:hover {
+    background: rgb(243, 205, 183);
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075) inset, 0 0 3px rgba(255, 196, 0, 0.6);
+    letter-spacing: 4px;
+    /* -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); */
+    
 }
 
 .contacts {
@@ -655,7 +743,14 @@ input:checked {
     letter-spacing: 5px;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-decoration: none;
     padding-left: 26px;
+    transition: all 0.5s ease;
+}
+
+.footer_logo_title:hover {
+    letter-spacing: 7px;
+    color: rgb(243, 205, 183);
 }
 
 .footer_nav_container {
@@ -683,6 +778,27 @@ input:checked {
     text-decoration: none;
     margin: 0;
     margin-bottom: 25px;
+    position: relative;
+}
+
+.footer_nav:hover {
+    color:rgb(243, 205, 183);
+}
+
+.footer_nav::before {
+    content: "";
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: darkred;
+    transition: 0.6s;
+}
+
+.footer_nav:hover:before {
+    width: 100%;
+    left: 0;
 }
 
 .footer_social {
@@ -695,7 +811,12 @@ input:checked {
 }
 
 .social_pic {
-    padding-left: 25px;
+    margin-left: 25px;
+}
+
+.social_pic:hover {
+    border-radius: 50%;
+    background: #b19910;
 }
 
 .footer_midline {
