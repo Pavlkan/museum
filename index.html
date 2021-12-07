@@ -15,27 +15,27 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header"><a name="top"></a>
         <div class="header_container">
             <div class="head_logo">
                 <div class="head_logo_frame">
                     <img src="./assets/img/Vector.png" alt="logo">
                 </div>
-                <a class="head_logo_text" href="index.html">LOUVRE</a> 
+                <a class="head_logo_text" href="index.html#top">LOUVRE</a> 
             </div>
             <div class="head_navigation">
-                <a class="header_link" href="">Visiting</a>
-                <a class="header_link" href="">Explore</a>
-                <a class="header_link" href="">Video</a>
-                <a class="header_link" href="">Tickets</a>
-                <a class="header_link" href="">Contacts</a>
+                <a class="header_link" href="index.html#virtual_tour">Visiting</a>
+                <a class="header_link" href="index.html#picture_explore">Explore</a>
+                <a class="header_link" href="index.html#video_journey">Video</a>
+                <a class="header_link" href="index.html#buy_tickets">Tickets</a>
+                <a class="header_link" href="index.html#contacts">Contacts</a>
             </div>
         </div>
     </header>
 
     <main class="main">
 
-        <section class="welcome">
+        <section class="welcome"><a name="welcome"></a>
             <div class="welcome_container">
                 <div class="positioned">
                     <div class="welcome_title">
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="virtual_tour">
+        <section class="virtual_tour"><a name="virtual_tour"></a>
             <div class="virtual_tour_head">
                 <span>VIRTUAL TOUR</span>
             </div>
@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <section class="picture_explore">
+        <section class="picture_explore"><a name="picture_explore"></a>
             <div class="pic-exp_text_container">
                 <div class="pic-exp_title">Picture explore</div>
                 <div class="pic-exp_rectangle"></div>
@@ -143,18 +143,18 @@
             </div>
         </section>
 
-        <section class="video_journey">
-            <div class="vidjor_frame">
+        <section class="video_journey"><a name="video_journey"></a>
+            <img class="vidjor_frame" src="./assets/img/Video frame.png">
                 <div class="video"></div>
                 <div class="video_player"></div>
-            </div>
+            </img>
             <div class="vidjor_text_container">
                 <div class="vidjor_title">Video journey</div>
                 <div class="vidjor_text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</div>
             </div>
         </section>
 
-        <section class="buy_tickets">
+        <section class="buy_tickets"><a name="buy_tickets"></a>
             <div class="buytic_title">
                 <div class="buytic_text">Buy tickets</div>
                 <div class="buytic_rectangle"></div>
@@ -166,9 +166,9 @@
                 <div class="buytic_content">
                     <div class="ticket_type">
                         <p class="ticket_type_title"><b>Ticket Type</b></p>
-                            <p class="radio_button_text"><input name="radio_button" type="radio" value="Permanent exhibition">Permanent exhibition</p>
-                            <p class="radio_button_text"><input name="radio_button" type="radio" value="Temporary exhibition">Temporary exhibition</p>
-                            <p class="radio_button_text"><input name="radio_button" type="radio" value="Combined Admission" checked>Combined Admission</p>
+                            <p class="radio_button_text"><input name="radio_button" id="radiobut_1" type="radio" value="Permanent exhibition"><label for="radiobut_1">Permanent exhibition</label></p>
+                            <p class="radio_button_text"><input name="radio_button" id="radiobut_2" type="radio" value="Temporary exhibition"><label for="radiobut_2">Temporary exhibition</label></p>
+                            <p class="radio_button_text"><input name="radio_button" id="radiobut_3" type="radio" value="Combined Admission"><label for="radiobut_3">Combined Admission</label></p>
                     </div>
                     <div class="amount_container">
                         <div class="amount">
@@ -200,7 +200,7 @@
             </div>
         </section>
 
-        <section class="contacts">
+        <section class="contacts"><a name="contacts"></a>
             <div class="contacts_title">
                 <div class="contacts_text">Contacts</div>
                 <div class="contacts_rectangle"></div>
@@ -216,6 +216,7 @@
                     <div class="contacts_content_text">mail: info@louvre.fr</div>
                 </div>        
                 <div class="map">
+                    <img src="./assets/img/Map.png" alt="Map">
                     <!-- <iframe src="https://goo.gl/maps/D8F9Kn3PRaVmPZZc7" frameborder="0"></iframe> -->
                 </div>
             </div>
@@ -229,20 +230,22 @@
     <footer class="footer">
         <div class="footer_content">
             <div class="footer_logo">
-                <img src="./assets/img/Vector.png" alt="Vector">
-                <a class="footer_logo_title" href="index.html">LOUVRE</a>
+                <div>
+                    <img src="./assets/img/Vector.png" alt="Vector">
+                </div>
+                <a class="footer_logo_title" href="index.html#top">LOUVRE</a>
             </div>
             <div class="nav_n_soc_container">
                 <div class="footer_nav_container">
                     <div class="footer_nav_block">
-                        <a href="" class="footer_nav">Visiting</a>
-                        <a href="" class="footer_nav">Explore</a>
-                        <a href="" class="footer_nav">Video</a>         
+                        <a href="index.html#virtual_tour" class="footer_nav">Visiting</a>
+                        <a href="index.html#picture_explore" class="footer_nav">Explore</a>
+                        <a href="index.html#video_journey" class="footer_nav">Video</a>         
                     </div>
                     <div class="footer_nav_block">
                         <a href="" class="footer_nav">Gallery</a>
-                        <a href="" class="footer_nav">Tickets</a>
-                        <a href="" class="footer_nav">Contacts</a> 
+                        <a href="index.html#buy_tickets" class="footer_nav">Tickets</a>
+                        <a href="index.html#contacts" class="footer_nav">Contacts</a> 
                     </div>
                 </div>
                 <div class="footer_social">
@@ -264,12 +267,12 @@
                 </div>
             </div>
         </div>
-        <div class="footer_midline"></div>
+        <!-- <div class="footer_midline"></div>
         <div class="footer_devinfo">
             <div class="footer_year">© 2021</div>
             <div class="footer_school">The Rolling Scopes School</div>
             <div class="footer_author">Pavlkan</div>
-        </div>
+        </div>                                                                        STAGE 1-->
     </footer>    
 </body>
 </html>
